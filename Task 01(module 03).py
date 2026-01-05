@@ -3,8 +3,7 @@
 num = float(input("Enter the Number : "))
 
 if num % 2 == 0:
-    print("The No. is Even!")
+    print(f"{num} is an Even No.!")
 
 else:
-    print("The No. is Odd!")
-
+    print(f"{num} is an Odd No.!")
